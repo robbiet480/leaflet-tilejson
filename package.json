@@ -1,6 +1,6 @@
 {
   "name": "leaflet-tilejson",
-  "version": "0.7.0",
+  "version": "0.9.0",
   "description": "TileJSON integration for Leaflet, with extension for local projections using Proj4Leaflet",
   "main": "index.js",
   "directories": {
@@ -19,6 +19,13 @@
     "Proj4"
   ],
   "author": "Per Liedman <per.liedman@kartena.se>",
+  "contributors": [
+    {
+      "name": "Robbie Trencheny",
+      "email": "me@robbiet.us",
+      "url": "http://robbie.io"
+    },
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kartena/leaflet-tilejson/issues"
