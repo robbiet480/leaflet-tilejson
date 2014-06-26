@@ -10,7 +10,7 @@
         module.exports = factory(L, proj4leaflet);
     } else {
         // Browser globals
-        if (typeof window.L === 'undefined' || typeof window.L.Proj === 'undefined')
+        if (typeof window.L === 'undefined')
             throw "Leaflet and proj4leaflet must be loaded first";
         factory(window.L);
     }
@@ -121,6 +121,8 @@
         }
 
         if (defined(context.crs.projection)) {
+            if(typeof window.L.Proj === 'undefined')
+              throw "Leaflet and proj4leaflet must be loaded first";
             context.map.crs =
                 new L.CRS.proj4js(
                     context.crs.code,
