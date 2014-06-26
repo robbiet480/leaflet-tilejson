@@ -1,0 +1,24 @@
+{
+  "name": "leaflet-tilejson",
+  "version": "0.9.0",
+  "authors": [
+    "Per Liedman <per.liedman@kartena.se>",
+    "Robbie Trencheny <me@robbiet.us>"
+  ],
+  "description": "TileJSON integration for Leaflet, with extension for local projections using Proj4Leaflet",
+  "main": "index.js",
+  "keywords": [
+    "TileJSON",
+    "Leaflet",
+    "Proj4"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/robbiet480/leaflet-tilejson",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
